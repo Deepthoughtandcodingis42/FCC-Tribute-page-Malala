@@ -1,0 +1,172 @@
+
+ <main id="main">
+    <h1 id="title">Malala Yousafzai<link href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@700&display=swap" rel="stylesheet"></h1>
+
+     <h2><em>Activist, Nobel Peace winner and girl intent in ensuring all girls around the world have access to education!</em></h2>
+      </div> 
+     
+    <figure id="img-div">
+      <img 
+        id="image"
+           src="//upload.wikimedia.org/wikipedia/commons/thumb/0/08/Malala_Yousafzai.jpg/220px-Malala_Yousafzai.jpg" alt="Malala picking up her prize" />
+        <figcaption id="img-caption"><em>Malala Yousafzai picking up her Nobel Peace Prize 2014</em>
+      </figcaption>
+      </figure>
+      <section id="tribute-info">
+      <p> <u>Who Is Malala Yousafzai?</u><br/></p>
+      <p>Malala Yousafzai is a Pakistani education advocate who, at the age of 17 in 2014, became the youngest person to win the Nobel Peace Prize after surviving an assassination attempt by the Taliban. Yousafzai became an advocate for girls' education when she herself was still a child, which resulted in the Taliban issuing a death threat against her. On October 9, 2012, a gunman shot Yousafzai when she was traveling home from school. She survived and has continued to speak out on the importance of education. In 2013, she gave a speech to the United Nations and published her first book, I Am Malala. </p>
+    <h3 id="headline">Malala's timeline:</h3>
+    <ul>
+     <li><strong>1997</strong> - Malala yousafzai was born on July 12, 1997 in Mingora, Pakistan.
+     </li>
+     <li>
+ <strong>2008</strong> - Malala Yousafzai at age 11, gives a speech in front of the national press. "How dare the Taliban take away my basic right to an education.""
+      </li>
+      <li>
+        <strong>January 2009</strong> Malala starts blogging for the BBC Urdu using the pseudonym, Gul Makai.
+      </li>
+      <li>
+        <strong>2010..</strong> She started receiving threatening notes under the door, ordering her to stop the crusades
+      </li> 
+      <li><strong>October 9, 2012</strong> Attempt of Assassination by a Talibn gun man.
+      </li> 
+      <li>
+       <strong>July 12, 2003</strong> Malala Day. She gives a speech at the United Nations. Her birthday becomes recognized as " Mallala Day."
+      </li>
+      <li>
+        <strong>October 9, 2013</strong>I am Malala memoir is released.
+      </li>        
+       <li>
+         <strong>October 10, 2014</strong>Malala wins Nobel Peace Prize. 
+      </li>
+      <li>
+        <strong>July 12, 2015</strong>The Malala Fund opens "Malala Yousafzaid All-Girls School."         </li> 
+      <li>
+        <strong>October 2, 2015</strong>Malala's documentary titled "He named me Malala" is realeased in theaters.
+      </li> 
+      <li>
+        <strong>June 2020</strong> Graduates from Oxford University.
+      </li> 
+      </ul>
+      <blockquote 
+                  
+cite="https://www.goodreads.com/quotes/914955-one-child-one-teacher-one-book-one-pen-can-change"
+        >
+      <p>
+        “One child, one teacher, one book, one pen can change the world.”
+        </p><em> From her biography</em></cite>
+        </blockquote>
+       <h3>
+         Please take a second out of your day to sit down and have a read about this living inspiration
+      <a id="tribute-link"
+         href="https://en.wikipedia.org/wiki/Malala_Yousafzai" target="_blank" >Wikipedia entry</a
+        >.
+     </h3>
+      </section>
+</main>
+</html> 
+
+<div>
+    <footer>
+    Written and coded by <a href="https://www.freecodecamp.org/fcc972483d2-3255-4ca4-9882-1ed0ae81d871 target="_blank"> 300K </a>.
+    </footer>
+   </div>
+      
+
+---
+
+CSS
+
+
+html{
+  font-size: 15px;
+}
+
+body{
+       font-size: 1rem;
+       line-height: 1.5;
+       text-align: center;
+       color: #333;
+       margin: 0;
+      }
+       
+h1 {
+        text-color: lightgrey;
+        font-size: 80px;
+        font-family: 'Dancing Script', cursive; 
+        font-weight: 450
+                }
+
+h2 {
+  font-size: 3.25rem;
+}
+
+a {
+  color: #477ca7;
+}
+
+a:visited {
+  color: #74638f;
+}
+
+#main {
+  margin: 30px 8px;
+  padding: 15px;
+  border-radius: 5px;
+  background: #eee;
+}
+
+@media (max-width: 460px) {
+  #main {
+    margin: 0;
+  }
+}
+
+img {
+  max-width: 100%;
+  display: block;
+  height: auto;
+  margin: 0 auto;
+}
+
+#img-div {
+  background: white;
+  padding: 10px;
+  margin: 0;
+}
+
+#img-caption {
+  margin: 15px 0 5px 0;
+}
+
+@media (max-width: 460px) {
+  #img-caption {
+    font-size: 1.4rem;
+  }
+}
+
+#headline {
+  margin: 50px 0;
+  text-align: center;
+}
+
+ul{
+  max-width:550px;
+  margin: 0 auto 50px auto;
+  text-align: left;
+  line-height: 1.6;
+}
+
+li{
+  margin: 16px 0;
+}
+
+blockquote{
+  font-style: italic;
+  max-width: 545px;
+  margin: 0 auto 50px auto;
+  text-align: left;
+}
+  
+    
+
